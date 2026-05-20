@@ -71,6 +71,7 @@ module.exports = function (eleventyConfig) {
       data: "_data",
       output: "_site",
     },
+    pathPrefix: "/skiluxe/",
     templateFormats: ["njk", "html", "md"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
